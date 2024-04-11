@@ -1,0 +1,39 @@
+
+/* ---- Layout Containers ---- */
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+.item1 {
+  margin-right:auto;  
+}
+
+/* 以上navigation  */
+.row1,.row2,.hidden-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ---- Layout Containers ---- */
+/* media query */
+
+@media (min-width: 1200px) {
+
+	.main-header,
+	.main-nav,
+	.row {
+		display: flex;
+	}
+
+	.main-header {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.col {
+		flex: 1;
+	}
+
+}
+/* media query */

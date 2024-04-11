@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+/* 以下navigation base */
+header {
+    background-color:rgb(232, 225, 134);  
+}
+ 
+ul {
+	color: #1e0909;
+	padding: 0;
+	list-style: none;
+}
+.fir-col,.sec-col,.thi-col,.fou-col{
+	background-color: aqua;
+	width: 400px;
+	height: auto;
+	padding: 15px;
+	margin: 10px -70px;
+}
+
+.container-welcome{
+    margin: 0;
+	text-align: center;
+	background-color: rgb(142, 245, 139);
+}
+.hidden-container{
+	display: none;
+}
+/* 以上navigation base  */
+section {
+	text-align: center;
+}
+
+@media (min-width: 1200px) {
+	.main-header,
+	.row {
+		width: 80%;
+		max-width: 1150px;
+	}
+}
+
