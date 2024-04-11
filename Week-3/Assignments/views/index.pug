@@ -1,0 +1,12 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Welcome Page
+  body
+    h1 Welcome Page
+    form(action=`http://localhost:3000/trackName/?name=${name}` method="get")
+      label(for="name") Enter your name:
+      input(type="text", id="name", name="name")
+      button(type="submit") Submit
