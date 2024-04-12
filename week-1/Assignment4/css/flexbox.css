@@ -1,0 +1,42 @@
+
+/* ---- Layout Containers ---- */
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+	padding: 10px;
+}
+.item2{
+	border: 1px solid #aca2a2;
+	border-radius: 3%;
+}
+.item1 {
+  margin-right:auto;  
+}
+.devsite-devprofile-button{
+	border-radius: 90%;
+	border: 1px solid #8a8080;
+}
+/* 以上navigation  */
+.row1,.row2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ---- Layout Containers ---- */
+/* media query */
+
+@media screen and (max-width: 840px) {
+    .devsite-article-body>.beta:not([class*=attempt]),.devsite-article-body>.caution:not([class*=attempt]),.devsite-article-body>.deprecated:not([class*=attempt]),.devsite-article-body>.dogfood:not([class*=attempt]),.devsite-article-body>.experimental:not([class*=attempt]),.devsite-article-body>.key-point:not([class*=attempt]),.devsite-article-body>.key-term:not([class*=attempt]),.devsite-article-body>.note:not([class*=attempt]),.devsite-article-body>.objective:not([class*=attempt]),.devsite-article-body>.preview:not([class*=attempt]),.devsite-article-body>.special:not([class*=attempt]),.devsite-article-body>.success:not([class*=attempt]),.devsite-article-body>.tip:not([class*=attempt]),.devsite-article-body>.warning:not([class*=attempt]),.devsite-article-body>aside:not([class*=attempt]) {
+        --devsite-notice-margin:16px -24px;
+        --devsite-notice-padding-inline: 60px 24px
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .devsite-article-body>.beta:not([class*=attempt]),.devsite-article-body>.caution:not([class*=attempt]),.devsite-article-body>.deprecated:not([class*=attempt]),.devsite-article-body>.dogfood:not([class*=attempt]),.devsite-article-body>.experimental:not([class*=attempt]),.devsite-article-body>.key-point:not([class*=attempt]),.devsite-article-body>.key-term:not([class*=attempt]),.devsite-article-body>.note:not([class*=attempt]),.devsite-article-body>.objective:not([class*=attempt]),.devsite-article-body>.preview:not([class*=attempt]),.devsite-article-body>.special:not([class*=attempt]),.devsite-article-body>.success:not([class*=attempt]),.devsite-article-body>.tip:not([class*=attempt]),.devsite-article-body>.warning:not([class*=attempt]),.devsite-article-body>aside:not([class*=attempt]) {
+        --devsite-notice-margin:16px -16px;
+        --devsite-notice-padding-inline: 52px 16px
+    }
+}
+/* media query */

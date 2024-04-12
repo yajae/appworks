@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+/* 以下navigation base */
+header {
+    background-color:rgb(252, 251, 248);  
+}
+ 
+ul {
+	color: #625757;
+	padding: 0;
+	list-style: none;
+}
+.fir-col,.sec-col,.thi-col,.fou-col{
+	background-color: rgb(231, 237, 237);
+	border-radius: 5px;
+	border: 1px solid #aca2a2;
+	width: 400px;
+	height: auto;
+	padding: 15px;
+	margin: 10px -70px;
+}
+
+.container-welcome{
+    margin: 0;
+	text-align: center;
+	color:aliceblue;
+	background-color: rgb(9, 95, 116);
+}
+
+/* 以上navigation base  */
+section {
+	text-align: center;
+}
+
+
+
