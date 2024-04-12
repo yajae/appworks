@@ -5,10 +5,10 @@ const bodyParser = require("body-parser");
 const cookieParser = require('cookie-parser');
 
 
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded ({ extended: true }));
 app.use(cookieParser()); 
 app.use(express.static('public')); //the page of static asset 
-app.set("view engine","pug"); //the page of fillName page
+app.set("view engine","pug" ); //the page of fillName page
 
 
 app.get("/", (req,res)=>{
@@ -16,8 +16,8 @@ app.get("/", (req,res)=>{
 })
 
 app.get('/myName', (req, res) => {
-  if(!req.cookies.name){
-    res.redirect("/fillName");
+  if( !req.cookies.name ) {
+    res.redirect( "/fillName" );
   }else{
     res.send(`Your name is ${req.cookies.name}.`);
   }
@@ -27,14 +27,14 @@ app.get('/fillName', (req, res) => {
   res.render("index");
 });
 
-app.get("/trackName",(req,res)=>{
+app.get("/trackName",(req,res) => {
   let name = req.query.name;
   console.log(name);
   res.cookie("name",name);
   res.redirect("/myName");
 })
 
-app.get("/clearName",(req,res)=>{
+app.get("/clearName",(req,res) => {
   res.clearCookie('name', "cookie");
   res.redirect("/myName");
 })

@@ -13,6 +13,7 @@ router.get("/",(req,res)=>{
             result += i;
         }
         console.log(`${result}`);
+        res.send( `result is ${result}` );
     }
     
 })
