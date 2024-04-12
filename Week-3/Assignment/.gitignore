@@ -1,2 +1,3 @@
 # 忽略 node_modules 文件夹（常用于 Node.js 项目）
 node_modules/
+ignore = all
