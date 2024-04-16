@@ -1,0 +1,22 @@
+{
+  "name": "assignment3",
+  "version": "1.0.0",
+  "description": "build a website with MySql",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yajae/remote-assignments1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yajae/remote-assignments1/issues"
+  },
+  "homepage": "https://github.com/yajae/remote-assignments1#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
