@@ -2,9 +2,9 @@
   "name": "assignment3",
   "version": "1.0.0",
   "description": "build a website with MySql",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node app.js"
   },
   "repository": {
     "type": "git",
