@@ -1,10 +1,10 @@
 const mysql = require('mysql2');
 
 const pool = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
+  host: '',
+  user: '',
   database: 'assignment',
-  password: 'afu5969398',
+  password: '',
 }).promise();
 
 async function createMember(email, password) {
