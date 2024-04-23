@@ -1,6 +1,8 @@
-SELECT user.email, ar1.title, ar1.content  FROM user 
-INNER JOIN article1 AS ar1;
+-- 1
+SELECT  ar1.title, ar1.content, user.email  FROM article1 AS ar1 
+INNER JOIN user 
 
+-- 2
 SELECT *
 FROM article1
 ORDER BY id
